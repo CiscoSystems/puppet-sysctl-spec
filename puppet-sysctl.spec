@@ -1,5 +1,5 @@
 Name:		puppet-sysctl	
-Version:	0.4
+Version:	0.5
 Release:	1cisco%{?dist}
 Summary:	Puppet sysctl module
 
@@ -37,6 +37,9 @@ cp -R * %{buildroot}/%{_usr}/share/puppet/modules/%{tmpname}/
 rm -rf %{buildroot}
 
 %changelog
+* Mon Sep 30 2013 Unknown name 0.5-1cisco
+- Added license file (pkilambi@cisco.com)
+
 * Thu Jul 18 2013 Pradeep Kilambi <pkilambi@cisco.com> 0.4-1cisco
 - 
 
